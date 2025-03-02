@@ -55,7 +55,7 @@
     <div class="collapse collapse-arrow join-item border-base-300 border mb-4">
       <input type="radio" name="my-accordion-4" />
       <div class="collapse-title font-semibold">Question-2: What is the difference between innerHTML, innerText, and textContent ?</div>
-      <div class="collapse-content text-sm">innerHTML gets or sets both text and HTML inside an element, so if I put <b>Hi</b>, it will be bold. innerText only gets the visible text, hiding hidden parts. textContent gets all text, even if it’s hidden, but it doesn’t recognize HTML.</div>
+      <div class="collapse-content text-sm">innerHTML gets/sets HTML + text, innerText gets only visible text, and textContent gets all text even if hidden. Example: innerHTML = "<b>Hi</b>" adds bold text, but innerText = "<b>Hi</b>" shows <b>Hi</b> as normal text.</div>
     </div>
     <div class="collapse collapse-arrow join-item border-base-300 border mb-4">
       <input type="radio" name="my-accordion-4" />
