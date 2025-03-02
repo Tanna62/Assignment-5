@@ -1,284 +1,3 @@
-// const buttons = document.querySelectorAll(".buttons-completed");
-
-// for (let i = 0; i < buttons.length; i++) {
-//   const btn = buttons[i];
-//   btn.addEventListener("click", function (event) {
-//     event.preventDefault();
-//     alert("Board Updated Successfully");
-
-//     let taskAssigned = convertedToNumber("task-assigned");
-//     let completedTask = convertedToNumber("completed-task");
-//     let workUpdate = document.getElementById("work-update");
-//     let p = document.createElement("p");
-//     let currentTime = addTaskCompletionTime();
-
-//     p.innerText = `You have completed the task Fix mobile button issues at ${currentTime}`;
-//     workUpdate.appendChild(p);
-
-//     // Fix: Check if taskAssigned > 0 before decrementing
-//     if (taskAssigned > 0) {
-//       taskAssigned--;
-//       completedTask++;
-
-//       document.getElementById("task-assigned").innerText = taskAssigned;
-//       document.getElementById("completed-task").innerText = completedTask;
-//     }
-
-//     // Disable only the clicked button
-//    this.disabled = true;
-
-//     // Enable all other buttons
-//     document.querySelectorAll(".buttons-completed").forEach((btn) => {
-//       if (btn !== this) {
-//         btn.disabled = true;
-//       }
-//     });
-//   });
-// };
-
-
-
-
-
-
-// const buttons=document.querySelectorAll(".buttons-completed");
-// for(let i=0;i<buttons.length;i++){
-//   const btn=buttons[i];
-//   btn.addEventListener("click",function(event){
-//     event.preventDefault();
-//              alert("Board Updated Successfully");
-//             //   const taskAssigned=document.getElementById("task-assigned").innerText;
-//             //   console.log(typeof taskAssigned);
-//           let taskAssigned=  convertedToNumber("task-assigned");
-//           let completedTask=convertedToNumber("completed-task");
-//           let workUpdate=document.getElementById("work-update");
-//           let p= document.createElement("p");
-//           let currentTime=addTaskCompletionTime();
-//           p.innerText=
-//           `You have  completed the task Fix mobile button issues at ${currentTime}
-          
-//           `;
-//           workUpdate.appendChild(p);
-         
-        
-//         //  console.log(typeof taskAssigned);
-//         //  console.log(typeof completedTask);
-//         if(completedTask>0){
-//           taskAssigned--;
-//           completedTask++;
-//           document.getElementById("task-assigned").innerText = taskAssigned;
-//           document.getElementById("completed-task").innerText = completedTask;
-    
-          
-        
-//         }
-    
-//         });
-//     };
-
-
-
-
-// document.getElementById("Completed-button")
-//         .addEventListener("click",function(event){
-//          event.preventDefault();
-//          alert("Board Updated Successfully");
-//         //   const taskAssigned=document.getElementById("task-assigned").innerText;
-//         //   console.log(typeof taskAssigned);
-//       let taskAssigned=  convertedToNumber("task-assigned");
-//       let completedTask=convertedToNumber("completed-task");
-//       let workUpdate=document.getElementById("work-update");
-//       let p= document.createElement("p");
-//       let currentTime=addTaskCompletionTime();
-//       p.innerText=
-//       `You have  completed the task Fix mobile button issues at ${currentTime}
-      
-//       `;
-//       workUpdate.appendChild(p);
-     
-    
-//     //  console.log(typeof taskAssigned);
-//     //  console.log(typeof completedTask);
-//     if(completedTask>0){
-//       taskAssigned--;
-//       completedTask++;
-//       document.getElementById("task-assigned").innerText = taskAssigned;
-//       document.getElementById("completed-task").innerText = completedTask;
-//       Completed-button.remove
-      
-//     }
- 
-
-//         });
-// document.getElementById("Completed-button2")
-//         .addEventListener("click",function(event){
-//          event.preventDefault();
-//          alert("Board Updated Successfully");
-//         //   const taskAssigned=document.getElementById("task-assigned").innerText;
-//         //   console.log(typeof taskAssigned);
-//       let taskAssigned=  convertedToNumber("task-assigned");
-//       let completedTask=convertedToNumber("completed-task");
-//       let workUpdate=document.getElementById("work-update");
-//       let p= document.createElement("p");
-//       let currentTime=addTaskCompletionTime();
-//       p.innerText=
-//       `You have  completed the task Add Dark Mode at ${currentTime}
-      
-//       `;
-//       workUpdate.appendChild(p);
-     
-    
-//     //  console.log(typeof taskAssigned);
-//     //  console.log(typeof completedTask);
-//     if(completedTask>0){
-//       taskAssigned--;
-//       completedTask++;
-//       document.getElementById("task-assigned").innerText = taskAssigned;
-//       document.getElementById("completed-task").innerText = completedTask;
-
-      
-//     }
- 
-
-//         });
-// document.getElementById("Completed-button3")
-//         .addEventListener("click",function(event){
-//          event.preventDefault();
-//          alert("Board Updated Successfully");
-//         //   const taskAssigned=document.getElementById("task-assigned").innerText;
-//         //   console.log(typeof taskAssigned);
-//       let taskAssigned=  convertedToNumber("task-assigned");
-//       let completedTask=convertedToNumber("completed-task");
-//       let workUpdate=document.getElementById("work-update");
-//       let p= document.createElement("p");
-//       let currentTime=addTaskCompletionTime();
-//       p.innerText=
-//       `You have  completed the task Optimize Home page at ${currentTime}
-      
-//       `;
-//       workUpdate.appendChild(p);
-     
-    
-//     //  console.log(typeof taskAssigned);
-//     //  console.log(typeof completedTask);
-//     if(completedTask>0){
-//       taskAssigned--;
-//       completedTask++;
-//       document.getElementById("task-assigned").innerText = taskAssigned;
-//       document.getElementById("completed-task").innerText = completedTask;
-
-      
-//     }
- 
-
-//         });
-// document.getElementById("Completed-button4")
-//         .addEventListener("click",function(event){
-//          event.preventDefault();
-//          alert("Board Updated Successfully");
-//         //   const taskAssigned=document.getElementById("task-assigned").innerText;
-//         //   console.log(typeof taskAssigned);
-//       let taskAssigned=  convertedToNumber("task-assigned");
-//       let completedTask=convertedToNumber("completed-task");
-//       let workUpdate=document.getElementById("work-update");
-//       let p= document.createElement("p");
-//       let currentTime=addTaskCompletionTime();
-//       p.innerText=
-//       `You have  completed the Add new emoji  at ${currentTime}
-      
-//       `;
-//       workUpdate.appendChild(p);
-     
-    
-//     //  console.log(typeof taskAssigned);
-//     //  console.log(typeof completedTask);
-//     if(completedTask>0){
-//       taskAssigned--;
-//       completedTask++;
-//       document.getElementById("task-assigned").innerText = taskAssigned;
-//       document.getElementById("completed-task").innerText = completedTask;
-
-      
-//     }
- 
-
-//         });
-
-// //  5
-
-// document.getElementById("Completed-button5")
-// .addEventListener("click",function(event){
-//  event.preventDefault();
-//  alert("Board Updated Successfully");
-// //   const taskAssigned=document.getElementById("task-assigned").innerText;
-// //   console.log(typeof taskAssigned);
-// let taskAssigned=  convertedToNumber("task-assigned");
-// let completedTask=convertedToNumber("completed-task");
-// let workUpdate=document.getElementById("work-update");
-// let p= document.createElement("p");
-// let currentTime=addTaskCompletionTime();
-// p.innerText=
-// `You have  completed the Integrate OpenAI API  at ${currentTime}
-
-// `;
-// workUpdate.appendChild(p);
-
-
-// //  console.log(typeof taskAssigned);
-// //  console.log(typeof completedTask);
-// if(completedTask>0){
-// taskAssigned--;
-// completedTask++;
-// document.getElementById("task-assigned").innerText = taskAssigned;
-// document.getElementById("completed-task").innerText = completedTask;
-
-
-// }
-
-
-// }); 
-        
-// document.getElementById("Completed-button6")
-// .addEventListener("click",function(event){
-//  event.preventDefault();
-//  alert("Board Updated Successfully");
-// //   const taskAssigned=document.getElementById("task-assigned").innerText;
-// //   console.log(typeof taskAssigned);
-// let taskAssigned=  convertedToNumber("task-assigned");
-// let completedTask=convertedToNumber("completed-task");
-// let workUpdate=document.getElementById("work-update");
-// let p= document.createElement("p");
-// let currentTime=addTaskCompletionTime();
-// p.innerText=
-// `You have  completed the Improve Job searching  at ${currentTime}
-
-// `;
-// workUpdate.appendChild(p);
-
-
-// //  console.log(typeof taskAssigned);
-// //  console.log(typeof completedTask);
-// if(completedTask>0){
-// taskAssigned--;
-// completedTask++;
-// document.getElementById("task-assigned").innerText = taskAssigned;
-// document.getElementById("completed-task").innerText = completedTask;
-
-
-// }
-
-
-// }); 
-        
-
-
-
-
-
-
-
-
-
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -289,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let clearHistoryBtn = document.getElementById("clear-history");
 
   function convertedToNumber(id) {
-    return parseInt(document.getElementById(id).innerText) || 0;
+    return parseInt(document.getElementById(id).innerText) ;
   }
 
   function addTaskCompletionTime() {
@@ -317,8 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if ([...buttons].every((btn) => btn.disabled)) {
           setTimeout(() => {
-            alert("All tasks are completed!");
-          }, 500);
+            alert("congrats!You have completed all the current task!");
+          }, );
         }
       }
     });
@@ -354,3 +73,45 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.style.backgroundColor = randomColor;
   });
 });
+// for new page
+document.addEventListener("DOMContentLoaded", function () {
+  const discoverSomethingNew = document.getElementById("discover-something-new");
+  if (discoverSomethingNew) {
+    discoverSomethingNew.addEventListener("click", function () {
+      window.location.href = "index2.html";
+
+    });
+  } else {
+    console.warn("Button with ID 'discover-something-new' not found.");
+  }
+});
+// back to first page
+document.addEventListener("DOMContentLoaded", function () {
+  const backToDeskBtn = document.getElementById("back-to-desk-btn");
+  if (backToDeskBtn) {
+    backToDeskBtn.addEventListener("click", function () {
+      window.location.href = "index.html";
+
+    });
+  } else {
+    console.warn("Button with ID 'discover-something-new' not found.");
+  }
+});
+
+
+// date
+document.getElementById('date').innerText = new Date().toLocaleDateString();
+
+
+
+// 
+
+// // for new page
+// document.addEventListener("DOMContentLoaded", function () {
+//   const discoverSomethingNew = document.getElementById("discover-something-new");
+//   discoverSomethingNew.addEventListener("click",function(){
+//     window.location.href="../index2.html";
+//   })
+
+
+// });
