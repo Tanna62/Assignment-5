@@ -37,9 +37,9 @@
         <div class="flex gap-4">
           <button class="btn btn-square btn-ghost mt-2">
             <img src="./assets/checkbox.png" alt="">
-            <p class="text-[rgba(30, 30, 30, 1)] text-3xl font-bold mr-10">23</p>
+            <p id="completed-task" class="text-[rgba(30, 30, 30, 1)] text-3xl font-bold mr-10">23</p>
           </button>
-          <div class="border-10 border-gray-100 rounded-full ">
+          <div id="image-button" class="border-10 border-gray-100 rounded-full ">
             <img src="./assets/theme-btn.png" alt="">
           </div>
          
@@ -59,7 +59,7 @@
              </div>
               <div>
                 <h1 class="text-base font-medium">Task Assignment</h1>
-                <p class="text-[#00303C] font-bold text-3xl">05</p>
+                <p id="task-assigned" class="text-[#00303C] font-bold text-3xl">06</p>
               </div>
             </div>
             <!-- 2 -->
@@ -102,7 +102,7 @@
                 <p class="text-base text-[#00303C] font-medium">21<span>March</span><span></span>2025</p>
              </div>
              <div>
-             <button class="ml-6 mr-1 py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Completed</button>
+             <button id="Completed-button" class=" buttons-completed ml-6 mr-1 py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Completed</button>
             </div>
             </div>
             </div>
@@ -124,7 +124,7 @@
                   <p class="text-base text-[#00303C] font-medium">21<span>March</span><span></span>2025</p>
                </div>
                <div>
-               <button class="ml-6 mr-1 py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Completed</button>
+               <button id="Completed-button2" class="buttons-completed ml-6 mr-1 py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Completed</button>
               </div>
               </div>
               </div>
@@ -146,7 +146,7 @@
                 <p class="text-base text-[#00303C] font-medium">21<span>March</span><span></span>2025</p>
              </div>
              <div>
-             <button class="ml-6 mr-1 py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Completed</button>
+             <button id="Completed-button3" class="buttons-completed ml-6 mr-1 py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Completed</button>
             </div>
             </div>
             </div>
@@ -168,7 +168,7 @@
                 <p class="text-base text-[#00303C] font-medium">21<span>March</span><span></span>2025</p>
              </div>
              <div>
-             <button class="ml-6 mr-1 py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Completed</button>
+             <button id="Completed-button4" class="buttons-completed ml-6 mr-1 py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Completed</button>
             </div>
             </div>
             </div>
@@ -190,7 +190,7 @@
                   <p class="text-base text-[#00303C] font-medium">21<span>March</span><span></span>2025</p>
                </div>
                <div>
-               <button class="ml-8 mr-1 py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Completed</button>
+               <button id="Completed-button5" class="buttons-completed ml-8 mr-1 py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Completed</button>
               </div>
               </div>
               </div>
@@ -212,7 +212,7 @@
                   <p class="text-base text-[#00303C] font-medium">21<span>March</span><span></span>2025</p>
                </div>
                <div>
-               <button class="ml-8 mr-1 py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Completed</button>
+               <button id="Completed-button6" class="buttons-completed ml-8 mr-1 py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Completed</button>
               </div>
               </div>
               </div>
@@ -231,10 +231,10 @@
                 <h1 class="text-[rgba(0, 48, 60, 1)] font-medium text-[18]"><span>Activity</span> <span>Log</span></h1>
             </div>
             <div> 
-         <button class="py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Clear<span>History</span></button>
+         <button id="clear-history" class="py-2 px-4 bg-[#3752FD] text-white rounded-md hover:bg-[#3751fd83] hover:text-white">Clear<span>History</span></button>
             </div>
             <!-- for new history ,it will need for js -->
-            <div>
+            <div id="work-update">
 
             </div>
             <!--  -->
@@ -264,7 +264,7 @@
 
 
 
-
+<script src="./scripts/toggle.js"></script>
  <script src="./scripts/script.js"></script>   
 </body>
 </html>
