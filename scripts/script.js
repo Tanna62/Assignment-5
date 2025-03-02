@@ -1,5 +1,4 @@
 
-
 document.addEventListener("DOMContentLoaded", function () {
   let buttons = document.querySelectorAll(".buttons-completed");
   let taskAssignedElem = document.getElementById("task-assigned");
@@ -28,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let p = document.createElement("p");
         let currentTime = addTaskCompletionTime();
-        p.innerText = `You have completed the task "${button.parentElement.previousElementSibling.innerText}" at ${currentTime}`;
+        p.innerText =   `  You have completed the task"${button.parentElement.previousElementSibling.innerText}"at ${currentTime}`;
         workUpdate.appendChild(p);
 
         button.disabled = true;
@@ -46,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
   clearHistoryBtn.addEventListener("click", function () {
     workUpdate.innerHTML = ""; 
     taskAssignedElem.innerText = buttons.length; 
-    completedTaskElem.innerText = "0";
+    completedTaskElem.innerText = "25";
 
     
     buttons.forEach((button) => {
@@ -104,14 +103,3 @@ document.getElementById('date').innerText = new Date().toLocaleDateString();
 
 
 
-// 
-
-// // for new page
-// document.addEventListener("DOMContentLoaded", function () {
-//   const discoverSomethingNew = document.getElementById("discover-something-new");
-//   discoverSomethingNew.addEventListener("click",function(){
-//     window.location.href="../index2.html";
-//   })
-
-
-// });
